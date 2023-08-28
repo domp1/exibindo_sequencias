@@ -1,0 +1,14 @@
+from time import sleep
+import os
+print("Sequência Crescente")
+n=0
+while n<200:
+    n=n+25
+    print(int(n))
+sleep(2)
+os.system('cls') #ou ("clear")
+print("Sequência Decrescente")
+x=200
+while x>24:
+    print(int(x))
+    x=x/2
